@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "InventoryManagementSystem.Controllers.StockManagementController",
+    "Method": "GetProduits",
+    "RelativePath": "StockManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryManagementSystem.Controllers.StockManagementController",
+    "Method": "AjouterProduit",
+    "RelativePath": "StockManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "InventoryManagementSystem.Dao.Produit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryManagementSystem.Controllers.StockManagementController",
+    "Method": "GetProduits",
+    "RelativePath": "StockManagement/{nom}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nom",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "InventoryManagementSystem.Dao.Produit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "InventoryManagementSystem.Controllers.StockManagementController",
+    "Method": "ModifierProduit",
+    "RelativePath": "StockManagement/{nom}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nom",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "p",
+        "Type": "InventoryManagementSystem.Dao.Produit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryManagementSystem.Controllers.StockManagementController",
+    "Method": "SupprimerProduit",
+    "RelativePath": "StockManagement/{nom}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nom",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
