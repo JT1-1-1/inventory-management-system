@@ -11,7 +11,8 @@ namespace InventoryManagementSystem.Controllers
     [Route("[controller]")]
     [ApiController]
     public class StockManagementController : ControllerBase
-    {   private readonly IMongoCollection<Produit> _produitCollection;
+    {   
+        private readonly IMongoCollection<Produit> _produitCollection;
         public StockManagementController(IOptions<StockDbSettings> stockDbSettings)
         {   
             var mongoClient = new MongoClient(stockDbSettings.Value.ConnectionString);

@@ -37,3 +37,4 @@ C:\Users\AdminLachmachi\Desktop\Inventory-Management-App\InventoryManagementSyst
 C:\Users\AdminLachmachi\Desktop\Inventory-Management-App\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.pdb
 C:\Users\AdminLachmachi\Desktop\Inventory-Management-App\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.genruntimeconfig.cache
 C:\Users\AdminLachmachi\Desktop\Inventory-Management-App\InventoryManagementSystem\obj\Debug\net9.0\ref\InventoryManagementSystem.dll
+C:\Users\AdminLachmachi\Desktop\Inventory-Management-App\InventoryManagementSystem\obj\Debug\net9.0\InventoryManagementSystem.sourcelink.json
