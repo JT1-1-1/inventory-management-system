@@ -30,11 +30,10 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.UseCors();
+
 app.MapHub<NotificationHub>("/hubs/Notification");
 app.Run();
