@@ -25,7 +25,7 @@ namespace InventoryManagementSystem.BackgroundServices
         {
             
                 var pipeline = new EmptyPipelineDefinition<ChangeStreamDocument<Produit>>()
-                    .Match(change => change.OperationType == ChangeStreamOperationType.Update || change.OperationType == ChangeStreamOperationType.Insert);
+                    .Match(change => change.OperationType == ChangeStreamOperationType.Replace || change.OperationType == ChangeStreamOperationType.Insert);
                 using (var cursor = await _produitCollection.WatchAsync(pipeline,cancellationToken: stoppingToken))
                 {
                     await cursor.ForEachAsync(async change =>

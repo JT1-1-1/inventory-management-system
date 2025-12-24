@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
         policy.AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials()
-              .SetIsOriginAllowed(_ => true); // allow localhost clients
+              .SetIsOriginAllowed(_ => true);
     });
 });
 var app = builder.Build();

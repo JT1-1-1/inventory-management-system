@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|solutionrelative:backgroundservices\\notificationsendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|c:\\users\\adminlachmachi\\desktop\\inventory-management-app\\inventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|c:\\users\\adminlachmachi\\desktop\\inventory-management-app\\inventorymanagementsystem\\controllers\\stockmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|solutionrelative:controllers\\stockmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|c:\\users\\adminlachmachi\\desktop\\inventory-management-app\\inventorymanagementsystem\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|solutionrelative:hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|c:\\users\\adminlachmachi\\desktop\\inventory-management-app\\inventorymanagementsystem\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97AA9183-5768-48CC-9E5E-D96F005C1A7C}|InventoryManagementSystem.csproj|solutionrelative:models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "Models\\Produit.cs",
+              "ToolTip": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Models\\Produit.cs",
+              "RelativeToolTip": "Models\\Produit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:37:55.798Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,48 +44,22 @@
               "RelativeDocumentMoniker": "BackgroundServices\\NotificationSendService.cs",
               "ToolTip": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\BackgroundServices\\NotificationSendService.cs",
               "RelativeToolTip": "BackgroundServices\\NotificationSendService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBsAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T17:13:13.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotificationHub.cs",
-              "DocumentMoniker": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Hubs\\NotificationHub.cs",
-              "RelativeDocumentMoniker": "Hubs\\NotificationHub.cs",
-              "ToolTip": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Hubs\\NotificationHub.cs",
-              "RelativeToolTip": "Hubs\\NotificationHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:00:23.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StockManagementController.cs",
               "DocumentMoniker": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Controllers\\StockManagementController.cs",
               "RelativeDocumentMoniker": "Controllers\\StockManagementController.cs",
               "ToolTip": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Controllers\\StockManagementController.cs",
               "RelativeToolTip": "Controllers\\StockManagementController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwDIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T15:53:36.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\AdminLachmachi\\Desktop\\Inventory-Management-App\\InventoryManagementSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T15:53:02.911Z",
               "EditorCaption": ""
             }
           ]
